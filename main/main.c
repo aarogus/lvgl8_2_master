@@ -161,6 +161,7 @@ static void guiTask(void *pvParameter)
 static void create_demo_application(void)
 {
     // /lv_demo_music();
+    
 }
 
 static void lv_tick_task(void *arg)
@@ -168,4 +169,11 @@ static void lv_tick_task(void *arg)
     (void)arg;
 
     lv_tick_inc(LV_TICK_PERIOD_MS);
+}
+
+
+void my_func()
+{
+
+    
 }
