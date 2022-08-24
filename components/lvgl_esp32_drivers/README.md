@@ -34,7 +34,7 @@ swap of RGB565 color on the LVGL configuration menuconfig (it's not handled auto
 | IL3820                                      | e-Paper    | SPI                    | 1: 1byte per pixel           | No                                     |
 | UC8151D/ GoodDisplay GDEW0154M10 DES        | e-Paper    | SPI                    | 1: 1byte per pixel           | No                                     |
 | FitiPower JD79653A/ GoodDisplay GDEW0154M09 | e-Paper    | SPI                    | 1: 1byte per pixel           | No                                     |
-
+| ST77903                                     |TFT         | QSPI                   | 24: RGB888                   | No                                     |
 ## Supported indev controllers
 
 - XPT2046
@@ -65,7 +65,7 @@ and sets the gpio numbers for the interface.
 | AIRcable ATAGv3           | IL3820                | SPI       | 128       | 296       |
 | TTGO T-Display            | ST7789                | SPI       | 135       | 240       |
 | TTGO Camera Plus          | ST7789                | SPI       | 240       | 240       |
-
+| lcd                       | ST77903               | QSPI      | 400       | 400       |
 **NOTE:** See [Supported display controllers](#supported-display-controllers) for more information on display configuration.
 **NOTE:** See [Supported indev controllers](#supported-indev-controllers) for more information about indev configuration.
 
